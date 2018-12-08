@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+	<Resource name="ordb" type="javax.sql.DataSource"
+		driverClassName="oracle.jdbc.OracleDriver"
+		url="jdbc:oracle:thin:@localhost:1521:ordb"
+		username="yunsi"
+		password="password"/>
+</Context>

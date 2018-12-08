@@ -1,0 +1,172 @@
+a{
+	text-decoration: none;
+	color: cornflowerblue;
+}
+
+
+/*登录界面 start*/
+#loginbox{
+	height: 380px;
+	width: 500px;
+	background-color: #b2bec3;
+	margin: 10% auto;
+	border-radius: 10px;
+	position: relative;
+	font-size: 20px;
+}
+#loginbox2{
+	width: 500px;
+	margin-top: 1%;
+}
+#loginform{
+	margin-left:20%;
+}
+#logintable tr{
+	height:35px;
+	line-height: 60px;
+}
+#logintable td{
+	text-align: center;
+}
+#logintable caption{
+	font-size: 35px;
+	height:100px;
+	line-height: 100px;
+}
+#logintable input{
+	height: 28px;
+	border: none;
+	padding-left: 5px;
+}
+#loginbox button {
+	height: 35px;
+	width: 130px;
+	border:none;
+}
+/*登录界面end*/
+
+
+/*商品界面Start*/
+#tablebox{
+	margin: 2% 25%;
+}
+#shoptable,#carttable{
+	border-collapse: collapse;
+	font-size: 15bpx;
+	line-height: 28px;
+	text-align: center;
+}
+#shoptable td,#carttable td{
+    border: #b2bec3 2px  solid;
+    width: 100px;
+}
+#shopnav{
+	height:40px;
+}
+#shopnav td{
+	border: none;
+}
+ #shopnav button{
+	border: none;
+	height: 25px;
+	margin-right: 10px;
+}
+
+/*商品界面end*/
+/*购物车start*/
+#cartbox{
+	margin: 2% 25%;
+}
+#carttable  button:hover{
+    border: 1px #ffffff solid;
+}
+#carttable  button[name = "add"]{
+	height: 17px;
+    width: 17px;
+    border: 0px;
+    margin-top: 3px;
+    background: url("../image/add.png");
+}
+#carttable  button[name = "dele"]{
+	height: 17px;
+    width: 17px;
+    border: 0px;
+    margin-top: 3px;
+    background: url("../image/dele.png");
+}
+#carttable  button[name = "reduce"]{
+	height: 17px;
+    width: 17px;
+    border: 0px;
+    margin-top: 3px;
+    background: url("../image/reduce.png");
+}
+#carttable tr:last-child{
+	height: 40px;
+}
+#submitbtn,#goshop{
+	height: 25px;
+	border: 0px;
+}
+
+/*邮寄信息界面*/
+#locbox{
+	width: 500px;
+	height: 300px;
+	margin: 10% auto;
+	position: relative;
+	background: #9eaaaf;
+	border-radius: 10px;
+	padding-top: 30px;
+}
+#loctable{
+	margin-left: 20%;
+}
+#loctable tr{
+	height: 35px;
+	margin:auto;
+}
+#loctable tr:last-child{
+	height: 50px;
+}
+#loctable input{
+	border: none;
+	padding: 1px;
+	height: 25;
+}
+#loctable caption{
+	height: 40px;
+	line-height:40px;
+	font-size: 25px;
+}
+
+#loctable button{
+	border: 0px;
+	height: 30px;
+	line-height: 40px;
+	width: 100px;
+}
+/*detailtable*/
+#detailbox{
+	width: 320px;
+	margin: 10% auto;
+	position: relative;
+	background: #9eaaaf;
+	border-radius: 10px;
+}
+#detailbox form{
+	width: 300px;
+	padding: 20px;
+	margin: 10% auto;
+	position: relative;
+	background: #9eaaaf;
+}
+
+#detailtable{
+
+}
+#detailtable td{
+	width: 100px;
+	border:1px #b2bec3 solid;
+
+}
