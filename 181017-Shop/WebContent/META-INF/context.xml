@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+	<!-- 
+		Resource表示资源的意思
+		什么类型的资源？javax.sql.DataSource类型的资源
+		资源的名称？o11g
+		后面4个属性一看就是数据库访问相关的资源。
+	 -->
+	<Resource name="o11g"
+		type="javax.sql.DataSource"
+		driverClassName="oracle.jdbc.OracleDriver"
+		url="jdbc:oracle:thin:@localhost:1521:ordb"
+		username="yunsi"
+		password="password"
+	/>
+</Context>

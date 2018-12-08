@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>结算信息</title>
+</head>
+<body>
+<div id="detailtable">
+    <table>
+        <caption >购物详细清单</caption>
+        <tr>
+            <th colspan="4" align="left">商品清单：</th>
+        </tr>
+        <tr>
+            <td>商品名称</td><td>单价</td><td>数量</td><td>小计</td>
+        </tr>
+        <tr>
+            <td>合计</td>
+            <td colspan="3"><span></span></td>
+        </tr>
+        <tr>
+            <th colspan="4" align="left">付款信息：</th>
+        </tr>
+        <tr>
+            <td>发卡行</td>
+            <td colspan="3"><span></span></td>
+        </tr>
+        <tr>
+            <td>卡号</td>
+            <td colspan="3"><span></span></td>
+        </tr>
+        <tr>
+            <td>密码</td>
+            <td colspan="3"><span></span></td>
+        </tr>
+        <tr>
+            <th colspan="4" align="left">寄件信息：</th>
+        </tr>
+        <tr>
+            <td>收件人</td>
+            <td colspan="3"><span></span></td>
+        </tr>
+        <tr>
+            <td>电话号码</td>
+            <td colspan="3"><span></span></td>
+        </tr>
+        <tr>
+            <td>邮编</td>
+            <td colspan="3"><span></span></td>
+        </tr>
+        <tr>
+            <td>地址</td>
+            <td colspan="3"><span></span></td>
+        </tr>
+        <tr>
+            <td><button>退出应用</button></td>
+            <td><button onclick="downinfo()" >下载清单</button></td>
+            <input type="hidden" name="downinfo" id="downinfo">
+        </tr>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>结算信息</title>
+</head>
+<body>
+    <div id="locbox">
+        <form action="" method="post" onsubmit="return checkloc()">
+            <table id="loctable">
+                <caption>付款信息</caption>
+                <tr>
+                    <td>发卡行</td>
+                    <td>
+                        <select name="bank" id="bank">
+                            <option value="中国银行">中国银行</option>
+                            <option value="中国农业银行">中国农业银行</option>
+                            <option value="中国建设银行">中国建设银行</option>
+                            <option value="中国工商银行">中国工商银行</option>
+                            <option value="中国招商银行">中国招商银行</option>
+                        </select>
+                    </td>
+                <tr>
+                <tr>
+                    <td>卡号</td>
+                    <td><input id="cardid" name="cardid" type="text" ></td>
+                </tr>
+                <tr>
+                    <td>密码</td>
+                    <td><input id="password" name="password" type="password" ></td>
+                </tr>
+                <tr>
+                    <td>金额</td>
+                    <td><sapn>￥</sapn></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit" >下一步</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
